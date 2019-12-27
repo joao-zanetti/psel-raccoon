@@ -44,7 +44,7 @@ resposta["response_d"]=response_d
 #print(resposta)
 
 #Metodo post() da Classe Poster, cria o arquivo resposta.json com o dicionario de respostas,
-#faz requisição post para API RaccoonPoster e recebe a resposta
+#faz requisição post para API RaccoonPoster
 Poster.post(resposta)
 
 

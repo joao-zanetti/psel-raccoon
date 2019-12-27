@@ -10,7 +10,7 @@ class C():
         for i in range(0,len(dic['posts'])):
             #seleciona o post[i] atual
             post= dic['posts'][i]
-            #Expressão regular que verifica se a data do post é 02/2019
+            #Expressão regular que verifica se a data do post pertence a 05/2019
             resultmay= re.search("05/2019",post["date"])
             #Se o resultado pertence a maio de 2019
             if(resultmay!=None):
